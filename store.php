@@ -27,7 +27,7 @@ if (isset($_POST['Submit'])) {
         $last_id = $conn->lastInsertId();
 
         // Display success messlastname
-        header("Location: create.php?success=1");
+        header("Location: index.php?success=1");
         
     } catch (PDOException $e) {
         // Handle errors
