@@ -1,9 +1,4 @@
-<?php
 
-if (isset($_GET['success']) && $_GET['success'] == 1) {
-    echo "<p>New record created successfully!</p>";
-}
-?>
 <html>
 <head>
 	<title>Add Data</title>
